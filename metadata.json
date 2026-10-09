@@ -1,0 +1,6 @@
+{
+  "name": "ORION IT SOLUTIONS",
+  "description": "ORION IT SOLUTIONS — Where Brands Become Stars. Founder-led digital studio in Lahore, Pakistan crafting premium websites, brand identities, and AI-powered enquiry experiences.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
