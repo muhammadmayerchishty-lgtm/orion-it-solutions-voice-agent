@@ -1,6 +1,6 @@
 {
   "name": "ORION IT SOLUTIONS",
-  "description": "ORION IT SOLUTIONS crafts luxury 3D websites, AI voice receptionists, and brand identities for high-growth businesses across Pakistan and UAE.",
+  "description": "ORION IT Solutions builds custom 24/7 AI voice receptionists and Apple-level 3D web experiences for real estate and aesthetic clinics in Pakistan and UAE.",
   "requestFramePermissions": ["microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

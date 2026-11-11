@@ -220,8 +220,15 @@ export function HomeSection() {
               </span>
             </motion.div>
 
+            {/* Semantic Primary H1 matching SEO specification */}
+            <h1 className="sr-only">
+              ORION IT Solutions - AI Voice Agents &amp; 3D Web Development
+            </h1>
+
             {/* Giant Headline with Masked Slide-Up Letter Stagger */}
-            <h1
+            <div
+              role="heading"
+              aria-level={2}
               className="font-display uppercase tracking-[-0.025em] leading-[1.02] whitespace-normal"
               style={{
                 fontSize: 'clamp(2.2rem, 5.2vw, 5rem)',
@@ -237,7 +244,7 @@ export function HomeSection() {
                 baseDelay={0.34}
                 isGradientItalic
               />
-            </h1>
+            </div>
 
             {/* Muted Sub-copy (18-20px) */}
             <motion.p
