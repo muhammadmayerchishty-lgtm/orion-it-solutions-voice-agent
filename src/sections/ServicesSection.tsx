@@ -16,6 +16,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SectionHeading } from '../components/SectionHeading';
 import { PillButton } from '../components/PillButton';
+import { SafeImage } from '../components/SafeImage';
 import { useSmoothScroll } from '../components/SmoothScrollProvider';
 import { getDeviceTier } from '../lib/deviceTier';
 
@@ -408,6 +409,48 @@ export function ServicesSection() {
           {SERVICES_DATA.map((service) => (
             <ServiceCard key={service.number} item={service} />
           ))}
+        </div>
+
+        {/* Apple-grade 3D Spatial Interfaces & Design Systems Showcase Card */}
+        <div className="mt-12 md:mt-14 relative rounded-[32px] overflow-hidden border border-[rgba(255,255,255,0.12)] bg-[#06091A] shadow-[0_24px_70px_rgba(2,4,14,0.85)]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 items-center">
+            <div className="lg:col-span-5 p-8 md:p-12 relative z-10">
+              <span className="font-mono-label text-[10px] tracking-wider text-[#7B4DFF] uppercase block mb-3">
+                APPLE-INSPIRED PRECISION
+              </span>
+              <h3 className="font-display font-extrabold text-[22px] sm:text-[28px] uppercase text-[#F5F7FF] tracking-tight leading-tight">
+                3D Interactive Digital Architectures
+              </h3>
+              <p className="mt-4 font-body text-[14.5px] leading-relaxed text-[#8B93B7]">
+                We engineer glassmorphic spatial interfaces with WebGL, smooth GPU acceleration, and micro-interactions calibrated to the millisecond. Every layout is calibrated for luxury brand presentation.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-2.5 text-[11px] font-mono-label text-[#F5F7FF]/90">
+                <span className="px-3 py-1 rounded-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)]">
+                  Three.js &amp; WebGL
+                </span>
+                <span className="px-3 py-1 rounded-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)]">
+                  GSAP Motion Curves
+                </span>
+                <span className="px-3 py-1 rounded-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)]">
+                  Adaptive 60fps Tier
+                </span>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7 relative h-[260px] sm:h-[340px] lg:h-[400px] overflow-hidden group/device">
+              <SafeImage
+                src="/images/glass-device-showcase.webp"
+                fallbackSrc="/images/glass-device-showcase.png"
+                alt="Apple-level Frosted Glass 3D Device Interfaces Floating in Dark Space"
+                width={800}
+                height={500}
+                placeholderGradient="linear-gradient(135deg, #0A122E 0%, #1A214D 50%, #30174A 100%)"
+                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover/device:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#06091A] via-transparent to-transparent pointer-events-none hidden lg:block" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#06091A] via-transparent to-transparent pointer-events-none lg:hidden" />
+            </div>
+          </div>
         </div>
 
         {/* Final Wide CTA Strip Below Grid */}

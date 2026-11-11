@@ -38,6 +38,16 @@ const ProcessSpecialtyFaqSection = lazy(() =>
     default: m.ProcessSpecialtyFaqSection,
   }))
 );
+const CertificationsSection = lazy(() =>
+  import('./sections/CertificationsSection').then((m) => ({
+    default: m.CertificationsSection,
+  }))
+);
+const PricingSection = lazy(() =>
+  import('./sections/PricingSection').then((m) => ({
+    default: m.PricingSection,
+  }))
+);
 const ContactSection = lazy(() =>
   import('./sections/ContactSection').then((m) => ({ default: m.ContactSection }))
 );
@@ -81,6 +91,8 @@ export default function App() {
             <ProjectsSection />
             <AiSection />
             <ProcessSpecialtyFaqSection />
+            <CertificationsSection />
+            <PricingSection />
             <ContactSection />
           </Suspense>
         </main>

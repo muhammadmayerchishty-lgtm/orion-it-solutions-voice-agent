@@ -17,6 +17,8 @@ export const NAV_ITEMS: NavItem[] = [
   { id: 'ai', label: 'AI AUTOMATION', href: '#ai' },
   { id: 'projects', label: 'PROJECTS', href: '#projects' },
   { id: 'founder', label: 'FOUNDER', href: '#founder' },
+  { id: 'certifications', label: 'CREDENTIALS', href: '#certifications' },
+  { id: 'pricing', label: 'PRICING', href: '#pricing' },
   { id: 'contact', label: 'CONTACT', href: '#contact' },
 ];
 

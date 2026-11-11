@@ -622,10 +622,34 @@ export function AiSection() {
           </div>
         </GlassCard>
 
-        {/* Below Diagram: Live JSON Lead Card + Make.com Proof Laptop Frame */}
+        {/* Below Diagram: 3D Neural Voice Sphere + Live JSON Lead Card + Make.com Proof Laptop Frame */}
         <div className="mt-8 grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-          {/* Left 6 Columns: Live JSON Lead Card */}
-          <div className="lg:col-span-6">
+          {/* Left 6 Columns: 3D AI Voice Neural Sphere + Live JSON Lead Card */}
+          <div className="lg:col-span-6 flex flex-col gap-6">
+            {/* Apple-grade 3D Neural Voice Interactive Showcase */}
+            <div className="group relative rounded-[28px] overflow-hidden border border-[#22C55E]/30 bg-[#060A1C] shadow-[0_20px_50px_rgba(34,197,94,0.12)]">
+              <div className="relative aspect-[16/9] w-full overflow-hidden">
+                <SafeImage
+                  src="/images/ai-voice-neural-sphere.webp"
+                  fallbackSrc="/images/ai-voice-neural-sphere.png"
+                  alt="Autonomous AI Neural Voice Sphere 3D Visual"
+                  width={800}
+                  height={450}
+                  placeholderGradient="linear-gradient(135deg, #091A28 0%, #152A38 50%, #123C2A 100%)"
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#060A1C] via-transparent to-transparent opacity-80 pointer-events-none" />
+                <div className="absolute top-4 left-4 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#060A1C]/80 backdrop-blur-md border border-[#22C55E]/40 font-mono-label text-[10px] text-[#22C55E]">
+                  <span className="w-2 h-2 rounded-full bg-[#22C55E] animate-ping" />
+                  <span>HAZEL 3D NEURAL AUDIO CORE</span>
+                </div>
+              </div>
+              <div className="p-4 sm:p-5 bg-[#060A1C]/90 backdrop-blur-md border-t border-[rgba(255,255,255,0.08)] flex items-center justify-between text-xs font-mono-label text-[#8B93B7]">
+                <span>STREAMING LATENCY: &lt; 380MS</span>
+                <span className="text-[#22C55E]">VAPI DUAL-SPEECH ACTIVE</span>
+              </div>
+            </div>
+
             <LiveJsonLeadCard />
           </div>
 
@@ -722,6 +746,267 @@ export function AiSection() {
               {chip}
             </span>
           ))}
+        </div>
+
+        {/* CUSTOM AI VOICE AGENTS SHOWCASE */}
+        <div className="mt-20 pt-16 border-t border-[rgba(255,255,255,0.08)]">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-12">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#2F6BFF]/15 border border-[#2F6BFF]/35 font-mono-label text-[10.5px] text-[#2F6BFF] mb-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#2F6BFF] shadow-[0_0_8px_#2F6BFF]" />
+                CUSTOM DIGITAL ASSISTANTS
+              </div>
+              <h3 className="font-display font-extrabold text-[26px] sm:text-[34px] uppercase text-[#F5F7FF] tracking-tight leading-tight">
+                AI Voice Agents <span className="italic text-signature-gradient">Showcase.</span>
+              </h3>
+              <p className="mt-2.5 font-body text-[15px] sm:text-[16px] text-[#8B93B7] max-w-2xl">
+                Trained on domain intelligence, custom conversational scripts, and real-time CRM appointment scheduling.
+              </p>
+            </div>
+            <span className="font-mono-label text-[11px] text-[#8B93B7] shrink-0">
+              7 TAILORED PERSONAS ACTIVE
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {/* 1. Glow Theory */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(242,184,75,0.25)] p-6 flex flex-col justify-between hover:border-[#F2B84B]/60 transition-all shadow-[0_20px_45px_rgba(2,4,14,0.7)]">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#F2B84B]/35 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/agent-glow-theory.webp"
+                      fallbackSrc="/images/agent-glow-theory.png"
+                      alt="Glow Theory AI Voice Agent"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#F2B84B]/15 border border-[#F2B84B]/35 font-mono-label text-[9.5px] text-[#F2B84B] font-semibold">
+                    CLINIC SPECIALIST
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  Glow Theory
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#F2B84B] mt-1 mb-3">
+                  Aesthetic Clinics &amp; Medspas
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  Specialized for aesthetic medicine. Answers treatment FAQs, qualifies patient skin concerns, and books consultation slots.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>SPECIALIZED MEDICAL AI</span>
+                <span className="text-[#22C55E]">● LIVE ACTIVE</span>
+              </div>
+            </div>
+
+            {/* 2. Ivy */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(123,77,255,0.25)] p-6 flex flex-col justify-between hover:border-[#7B4DFF]/60 transition-all shadow-[0_20px_45px_rgba(2,4,14,0.7)]">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#7B4DFF]/35 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/agent-ivy.webp"
+                      fallbackSrc="/images/agent-ivy.png"
+                      alt="Ivy AI Voice Agent"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#7B4DFF]/15 border border-[#7B4DFF]/35 font-mono-label text-[9.5px] text-[#7B4DFF] font-semibold">
+                    REAL ESTATE AGENT
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  Ivy
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#7B4DFF] mt-1 mb-3">
+                  Prime Luxury Real Estate
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  Trained on high-ticket property catalogs. Qualifies buyer budgets, provides area amenities breakdown, and arranges private viewings.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>HIGH-NET-WORTH CONCIERGE</span>
+                <span className="text-[#22C55E]">● LIVE ACTIVE</span>
+              </div>
+            </div>
+
+            {/* 3. Livi */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(34,197,94,0.25)] p-6 flex flex-col justify-between hover:border-[#22C55E]/60 transition-all shadow-[0_20px_45px_rgba(2,4,14,0.7)]">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#22C55E]/35 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/agent-livi.webp"
+                      fallbackSrc="/images/agent-livi.png"
+                      alt="Livi AI Voice Agent"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#22C55E]/15 border border-[#22C55E]/35 font-mono-label text-[9.5px] text-[#22C55E] font-semibold">
+                    DEVELOPER AGENT
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  Livi
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#22C55E] mt-1 mb-3">
+                  Property Developers &amp; Builders
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  Specialized for large development projects. Explains masterplans, multi-unit availability, and coordinates investor briefs directly.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>INVESTOR PIPELINE</span>
+                <span className="text-[#22C55E]">● LIVE ACTIVE</span>
+              </div>
+            </div>
+
+            {/* 4. Hazel */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(47,107,255,0.35)] p-6 flex flex-col justify-between hover:border-[#2F6BFF]/70 transition-all shadow-[0_20px_45px_rgba(47,107,255,0.15)] relative">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#2F6BFF]/45 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/hazel-mascot-face.webp"
+                      fallbackSrc="/images/hazel-mascot-face.png"
+                      alt="Hazel Core Voice Receptionist"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#2F6BFF]/20 border border-[#2F6BFF]/50 font-mono-label text-[9.5px] text-[#2F6BFF] font-bold">
+                    CORE ASSISTANT
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  Hazel
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#2F6BFF] mt-1 mb-3">
+                  ORION Studio Ambassador
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  The primary voice receptionist for ORION IT SOLUTIONS. Explains web design packages, 3D WebGL solutions, and schedules founder discovery calls.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>INTERACTIVE ON-SITE</span>
+                <span className="text-[#22C55E]">● VOICE ACTIVE</span>
+              </div>
+            </div>
+
+            {/* 5. BakeBrief Phone Agent */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(34,197,94,0.25)] p-6 flex flex-col justify-between hover:border-[#22C55E]/60 transition-all shadow-[0_20px_45px_rgba(2,4,14,0.7)]">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#22C55E]/35 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/agent-bakebrief.webp"
+                      fallbackSrc="/images/agent-bakebrief.png"
+                      alt="BakeBrief Phone Agent"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#22C55E]/15 border border-[#22C55E]/35 font-mono-label text-[9.5px] text-[#22C55E] font-semibold">
+                    PHONE AGENT
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  BakeBrief Phone Agent
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#22C55E] mt-1 mb-3">
+                  Bakery &amp; Food Catering
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  Never misses an order during morning baking rushes. Collects custom cake themes, event dates, and sends instant WhatsApp summaries.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>TELEPHONY &amp; DISPATCH</span>
+                <span className="text-[#22C55E]">● LIVE ACTIVE</span>
+              </div>
+            </div>
+
+            {/* 6. Riley */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(242,184,75,0.25)] p-6 flex flex-col justify-between hover:border-[#F2B84B]/60 transition-all shadow-[0_20px_45px_rgba(2,4,14,0.7)]">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#F2B84B]/35 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/agent-riley.webp"
+                      fallbackSrc="/images/agent-riley.png"
+                      alt="Riley AI Voice Agent"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#F2B84B]/15 border border-[#F2B84B]/35 font-mono-label text-[9.5px] text-[#F2B84B] font-semibold">
+                    ENTERPRISE INTAKE
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  Riley
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#F2B84B] mt-1 mb-3">
+                  B2B &amp; Corporate Intake
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  Structured client qualification specialist. Asks targeted requirement questions, scores lead readiness, and routes tickets to CRM.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>LEAD SCORING AI</span>
+                <span className="text-[#22C55E]">● LIVE ACTIVE</span>
+              </div>
+            </div>
+
+            {/* 7. New Assistant (Nova AI) */}
+            <div className="group rounded-[28px] bg-[#070C22]/90 border border-[rgba(123,77,255,0.25)] p-6 flex flex-col justify-between hover:border-[#7B4DFF]/60 transition-all shadow-[0_20px_45px_rgba(2,4,14,0.7)]">
+              <div>
+                <div className="flex items-center justify-between gap-3 mb-5">
+                  <div className="relative w-14 h-14 rounded-2xl overflow-hidden border border-[#7B4DFF]/35 bg-[#0A0E24]">
+                    <SafeImage
+                      src="/images/agent-new-assistant.webp"
+                      fallbackSrc="/images/agent-new-assistant.png"
+                      alt="Nova Custom Voice Assistant"
+                      width={120}
+                      height={120}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#7B4DFF]/15 border border-[#7B4DFF]/35 font-mono-label text-[9.5px] text-[#7B4DFF] font-semibold">
+                    BESPOKE PERSONA
+                  </span>
+                </div>
+                <h4 className="font-display font-bold text-[18px] text-[#F5F7FF] uppercase">
+                  New Assistant
+                </h4>
+                <div className="font-mono-label text-[11px] text-[#7B4DFF] mt-1 mb-3">
+                  Tailored to Your Industry
+                </div>
+                <p className="font-body text-[13.5px] text-[#8B93B7] leading-relaxed">
+                  We build custom voice assistants for your unique operations. Custom voice tone, custom system prompt, and deep API integrations.
+                </p>
+              </div>
+              <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between font-mono-label text-[10px] text-[#8B93B7]">
+                <span>MODULAR ARCHITECTURE</span>
+                <span className="text-[#22C55E]">● READY TO DEPLOY</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Section Bottom CTA */}

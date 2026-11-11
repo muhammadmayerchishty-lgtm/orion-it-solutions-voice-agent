@@ -4,6 +4,7 @@ import { Sparkles, Zap, Compass, Layers, Users } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SectionHeading } from '../components/SectionHeading';
+import { SafeImage } from '../components/SafeImage';
 import { getDeviceTier } from '../lib/deviceTier';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -407,6 +408,24 @@ export function AboutSection() {
                 a line, simple, unmistakable, guiding. That is how we design: clear, confident,
                 memorable.
               </p>
+            </div>
+
+            {/* Apple-grade 3D Monolith Preview Frame */}
+            <div className="mt-5 rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.1)] bg-[#050816] relative aspect-[16/9] group/monolith">
+              <SafeImage
+                src="/images/orion-constellation-monolith.webp"
+                fallbackSrc="/images/orion-constellation-monolith.png"
+                alt="ORION 3D Constellation Sculptural Monolith in Gallery Space"
+                width={640}
+                height={360}
+                placeholderGradient="linear-gradient(135deg, #070D1E 0%, #171E36 50%, #302616 100%)"
+                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover/monolith:scale-[1.04]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-transparent to-transparent opacity-60 pointer-events-none" />
+              <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-[10px] font-mono-label text-[#8B93B7]">
+                <span className="text-[#F2B84B]">THE ORION ETHOS</span>
+                <span>3D MONOLITH</span>
+              </div>
             </div>
 
             <OrionBeltSvg />

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://orion-it-solutions-voice-agent.vercel.app/sitemap.xml

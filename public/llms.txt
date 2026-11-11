@@ -1,0 +1,40 @@
+# ORION IT SOLUTIONS
+
+> Where Brands Become Stars. Luxury web design, custom 3D web applications, and autonomous AI voice agents.
+
+- Website: https://orion-it-solutions-voice-agent.vercel.app/
+- Location: Lahore, Punjab, Pakistan
+- Markets Served: Pakistan, United Arab Emirates (UAE)
+- Contact: muhammadmayerchishty@gmail.com | +92 316 4338095
+- Founder & Creative Director: Muhammad Mayer Chishty
+
+## About Us
+ORION IT SOLUTIONS is a founder-led digital production and AI engineering studio headquartered in Lahore, Pakistan, serving enterprise and boutique brands across Pakistan and the UAE (Dubai, Abu Dhabi, Sharjah). We engineer high-performance web applications, cinematic 3D visual experiences, and real-time AI conversational systems.
+
+## Core Services
+
+### 1. Website Development
+- Custom full-stack web applications engineered with React, TypeScript, Vite, and Next.js.
+- Clean architectural design, responsive mobile-first layouts, and enterprise-grade speed optimization.
+- Specialized web experiences for luxury architecture, interior design, and bespoke e-commerce brands.
+
+### 2. 3D Interactive Experiences
+- Real-time Three.js / WebGL / React Three Fiber interactive viewports and shaders.
+- Spatial interactive 3D product showcases, interactive branding emblems, and dynamic canvas rendering.
+- Adaptive performance tiers (low, mid, high) ensuring smooth 60fps animations across laptops, tablets, and smartphones.
+
+### 3. AI Voice Receptionists & Agents
+- Hazel: Autonomous 24/7 AI voice receptionist powered by Vapi for customer enquiry capture and booking.
+- Real-time ultra-low latency voice conversations, voice waveform synchronization, and intelligent qualification.
+- Intelligent conversational AI chat integration, webhook automations (Make.com, n8n), and instant CRM routing.
+
+## Founder
+- **Muhammad Mayer Chishty**: Founder, Lead Engineer & Creative Director.
+- Expertise: Full-Stack Engineering, 3D Web Visuals, AI Workflow Automation, and Brand Identity Design.
+- Portfolio: https://muhammad-mayer-portfolio.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/muhammad-mayer-chishty-8b269341a/
+- Instagram: https://www.instagram.com/mayeroutreach_1
+
+## Target Markets
+- **Pakistan**: Lahore, Karachi, Islamabad. Helping leading architectural studios, commercial ventures, and modern startups scale their digital presence.
+- **United Arab Emirates (UAE)**: Dubai, Abu Dhabi, Sharjah. Providing luxury digital experiences, 3D showcases, and AI conversational voice agents for premium real estate, design studios, and corporate enterprises.

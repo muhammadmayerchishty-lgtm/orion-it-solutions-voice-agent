@@ -38,73 +38,217 @@ interface ProjectItem {
 const PROJECTS_LIST: ProjectItem[] = [
   {
     number: '01',
-    name: 'GLOW THEORY',
-    domain: 'glowtheory1.lovable.app',
+    name: 'DECORIUM ZONE',
+    domain: 'decoriumzone.com',
     description:
-      'A luxury skincare brand experience. Full-stack and UI/UX design with a cinematic product-led look.',
-    tags: ['UI/UX', 'Web Development', 'Luxury E-commerce'],
-    skills: ['React', 'TypeScript', 'Editorial UI/UX', 'Luxury Brand System', 'Motion Design'],
-    link: 'https://glowtheory1.lovable.app/',
-    screenshot: '/images/glow-theory.webp',
-    accentGradient: 'linear-gradient(135deg, #1E295B 0%, #3E286B 48%, #70483C 100%)',
+      'Real client website for a premier interior architecture & bespoke decor studio. Luxury portfolio gallery and client booking funnel.',
+    tags: ['Real Client', 'Interior Architecture', 'E-Commerce'],
+    skills: ['React & Next.js', 'Spatial UI/UX', 'Custom Catalog', 'SEO Architecture', 'Appointment Booking'],
+    link: 'https://www.decoriumzone.com/',
+    screenshot: '/images/decorium-zone.webp',
+    accentGradient: 'linear-gradient(135deg, #0C1226 0%, #1E2D58 50%, #473212 100%)',
     accentColor: '#F2B84B',
     caseStudy: {
       challenge:
-        'Position a modern skincare line alongside heritage luxury houses through tactile typography, editorial product storytelling, and frictionless checkout.',
+        'Deliver a commercial-grade digital storefront for an interior decor house showcasing bespoke furniture lines, materials, and architectural consultation bookings.',
       solution:
-        'Engineered a high-contrast, product-led flagship store with silky scroll transitions, ingredient spotlights, and sensory micro-interactions.',
+        'Architected a luxury, high-conversion web platform with refined typographic grid layouts, high-res visual galleries, and instant WhatsApp booking integration.',
       highlights: [
-        'Bespoke luxury product showcase & regimen builder',
-        'Editorial art direction with fluid mobile-first commerce',
-        'Conversion-architected product detail & checkout journey',
+        'Live commercial production site running for Decorium Zone',
+        'Spatial room monograph & material detail lookbook',
+        'Direct inquiry funnel with high conversion rate',
       ],
     },
   },
   {
     number: '02',
-    name: 'BAKEBRIEF',
-    domain: 'bakebrief-app.vercel.app',
+    name: 'SHAFIQUE PROPERTIES DHA',
+    domain: 'shafique-properties-dha.vercel.app',
     description:
-      'A bakery brand website with an integrated AI calling agent that answers customer calls and handles enquiries.',
-    tags: ['AI Voice Agent', 'Web Development', 'IT Integration'],
-    skills: ['AI Voice Agent', 'React & Next.js', 'Automated Order Routing', 'UI/UX Design'],
-    link: 'https://bakebrief-app.vercel.app/',
-    screenshot: '/images/bakebrief.webp',
-    accentGradient: 'linear-gradient(135deg, #102A45 0%, #164E3F 50%, #1F244D 100%)',
-    accentColor: '#22C55E',
+      'High-end real estate portal for premium DHA Lahore commercial & residential properties with interactive listings.',
+    tags: ['Real Estate', 'DHA Lahore', 'Property Portal'],
+    skills: ['React', 'TypeScript', 'Property Filtering', 'DHA Sector Maps', 'Direct Agent Connect'],
+    link: 'https://shafique-properties-dha.vercel.app/',
+    screenshot: '/images/shafique-properties-dha.webp',
+    accentGradient: 'linear-gradient(135deg, #081020 0%, #182C52 50%, #104080 100%)',
+    accentColor: '#2F6BFF',
     caseStudy: {
       challenge:
-        'Artisan bakeries miss dozens of custom cake and catering orders during peak baking hours when staff cannot answer the phone.',
+        'DHA Lahore real estate buyers require verified listing data, high-resolution plot walkthroughs, and fast agent response times.',
       solution:
-        'Paired an appetizing digital storefront with a 24/7 autonomous AI voice receptionist that answers customer calls, takes custom order briefs, and logs enquiries automatically.',
+        'Engineered an authoritative property portal featuring phase-by-phase DHA listing filters, investment ROI calculators, and one-tap consultation booking.',
       highlights: [
-        '24/7 AI voice receptionist handling live customer calls',
-        'Automated enquiry capture & order specification summary',
-        'Warm, tactile brand showcase with instant menu browsing',
+        'Comprehensive DHA Lahore property inventory & phase breakdown',
+        'Mobile-first inquiry capture routing straight to sales executives',
+        'Clean, trustworthy luxury interface built for high-ticket buyers',
       ],
     },
   },
   {
     number: '03',
-    name: 'ARC STUDIO',
-    domain: 'arc-studio-websitem-ndkv.vercel.app',
+    name: 'MARWA REAL ESTATE',
+    domain: 'marwa-real-estate-orion.vercel.app',
     description:
-      'A premium website demo for an architecture and interior design firm, with an immersive project showcase.',
-    tags: ['Architecture', 'Interior Design', 'Web Design'],
-    skills: ['Spatial Showcase', 'Architectural Grid', 'Smooth Scroll', 'Enquiry Funnel'],
-    link: 'https://arc-studio-websitem-ndkv.vercel.app/',
-    screenshot: '/images/arc-studio.webp',
-    accentGradient: 'linear-gradient(135deg, #0D1B3E 0%, #1E3266 50%, #3A2463 100%)',
+      'Modern property portfolio & prime real estate agency showcase crafted for investors and luxury homebuyers.',
+    tags: ['Real Estate', 'Investment', 'Modern Web'],
+    skills: ['Next-Gen Web Design', 'Interactive Catalog', 'Investment Calculator', 'Lead Routing'],
+    link: 'https://marwa-real-estate-orion.vercel.app/',
+    screenshot: '/images/marwa-real-estate.webp',
+    accentGradient: 'linear-gradient(135deg, #06161C 0%, #103440 50%, #124C36 100%)',
+    accentColor: '#22C55E',
+    caseStudy: {
+      challenge:
+        'Elevate Marwa Real Estate from traditional property brokers to a modern digital agency attracting overseas investors.',
+      solution:
+        'Crafted an emerald-accented luxury property monograph highlighting residential towers, commercial plots, and verified developmental timelines.',
+      highlights: [
+        'Streamlined investor portfolio showcase with yield projections',
+        'Fast sub-second page transitions across property tiers',
+        'Direct WhatsApp consultation link with pre-filled property IDs',
+      ],
+    },
+  },
+  {
+    number: '04',
+    name: 'ORION IVY REAL ESTATE 3D',
+    domain: 'orion-ivy-realestate-3d.vercel.app',
+    description:
+      'Spatial 3D real estate experience powered by the autonomous Ivy AI Voice Agent for real-time client calls.',
+    tags: ['3D WebGL', 'Ivy AI Voice Agent', 'Luxury Estates'],
+    skills: ['Three.js & WebGL', 'Vapi AI Voice Integration', 'Spatial 3D Model', 'Real-Time Telephony'],
+    link: 'https://orion-ivy-realestate-3d.vercel.app/',
+    screenshot: '/images/orion-ivy-realestate-3d.webp',
+    accentGradient: 'linear-gradient(135deg, #120A28 0%, #2C1A58 50%, #4D1878 100%)',
+    accentColor: '#7B4DFF',
+    caseStudy: {
+      challenge:
+        'Eliminate manual lead intake delays by pairing an interactive 3D architectural viewer with an AI agent capable of answering voice inquiries in real time.',
+      solution:
+        'Integrated Three.js architectural rendering with Ivy AI — an autonomous voice agent that speaks naturally, qualifies buyers, and schedules private viewings 24/7.',
+      highlights: [
+        'Interactive 3D building exploration with smooth orbit controls',
+        'Live autonomous Ivy AI Voice Assistant answering calls on site',
+        'Instant client budget qualification and calendar sync',
+      ],
+    },
+  },
+  {
+    number: '05',
+    name: 'LIVI DEVELOPERS',
+    domain: 'livi-developers-sm8p.vercel.app',
+    description:
+      'Architectural developer portal featuring masterplan visualizers and the autonomous Livi AI Voice Agent.',
+    tags: ['Property Developer', 'Livi AI Voice Agent', 'Architecture'],
+    skills: ['Developer Portal', 'AI Calling Agent', 'Masterplan Visualizer', 'Enterprise Lead Pipeline'],
+    link: 'https://livi-developers-sm8p.vercel.app/',
+    screenshot: '/images/livi-developers.webp',
+    accentGradient: 'linear-gradient(135deg, #0A1826 0%, #1A3C58 50%, #154D38 100%)',
+    accentColor: '#22C55E',
+    caseStudy: {
+      challenge:
+        'Large-scale property developers receive hundreds of repetitive investor inquiries across time zones that overwhelm human receptionists.',
+      solution:
+        'Deployed Livi Developers web hub with Livi AI voice agent embedded directly into the frontend, taking calls, explaining floor plans, and sending summaries.',
+      highlights: [
+        '24/7 autonomous Livi AI voice receptionist handling buyer queries',
+        'Interactive floor plans and developmental milestone trackers',
+        'Automatic email and WhatsApp lead dispatch with call transcripts',
+      ],
+    },
+  },
+  {
+    number: '06',
+    name: 'LIVA LUXURY CLOTHING STORE',
+    domain: 'liva-luxury-clothing-store.vercel.app',
+    description:
+      'High-fashion digital atelier & luxury e-commerce experience with tactile product storytelling and smooth animations.',
+    tags: ['Fashion & Apparel', 'Luxury E-Commerce', 'Editorial UI/UX'],
+    skills: ['Haute Couture Editorial', 'Micro-Interactions', 'Smooth Checkout Flow', 'Lookbook Gallery'],
+    link: 'https://liva-luxury-clothing-store.vercel.app/',
+    screenshot: '/images/liva-luxury-clothing.webp',
+    accentGradient: 'linear-gradient(135deg, #1C0A16 0%, #421832 50%, #582424 100%)',
+    accentColor: '#F2B84B',
+    caseStudy: {
+      challenge:
+        'Capture the tactile elegance of high-end fabrics and bespoke tailoring in a digital storefront that rivals European luxury houses.',
+      solution:
+        'Designed an editorial lookbook storefront with smooth image pan choreography, fabric detail zoom, and frictionless bespoke sizing guides.',
+      highlights: [
+        'Editorial runway lookbook with atmospheric typography',
+        'Sensory product cards with fluid hover transitions',
+        'Conversion-optimized mobile shopping experience',
+      ],
+    },
+  },
+  {
+    number: '07',
+    name: 'EMPIRE CORE',
+    domain: 'empire-core-z1bq.vercel.app',
+    description:
+      'Futuristic urban footwear and performance sneaker experience engineered with dynamic dark aesthetics.',
+    tags: ['Streetwear', 'Footwear E-Commerce', 'Dark Theme'],
+    skills: ['Urban Streetwear UI', 'Dynamic Product Lab', '360 Sneaker Spin', 'Next-Gen Motion'],
+    link: 'https://empire-core-z1bq.vercel.app/',
+    screenshot: '/images/empire-core.webp',
+    accentGradient: 'linear-gradient(135deg, #0E0E14 0%, #262634 50%, #1A3258 100%)',
     accentColor: '#2F6BFF',
     caseStudy: {
       challenge:
-        'Architecture and interior design firms need digital spaces that feel as composed and spatial as the physical environments they build.',
+        'Create a bold, high-octane sneaker drop site that energizes Gen-Z streetwear enthusiasts and collectors.',
       solution:
-        'Crafted an architectural web showcase featuring full-bleed project monographs, refined typographic grids, and an integrated consultation request flow.',
+        'Engineered an industrial obsidian interface featuring limited-edition drop countdowns, dynamic sneaker spec breakdowns, and rapid cart checkout.',
       highlights: [
-        'Gallery-grade project monographs with spatial filtering',
-        'Minimalist editorial typography & blueprint-inspired grid',
-        'High-intent private client consultation capture',
+        'High-energy urban dark aesthetic with neon blue accents',
+        'Interactive sneaker specification and material breakdown',
+        'Sub-second cart and checkout journey built for drops',
+      ],
+    },
+  },
+  {
+    number: '08',
+    name: 'SAFA 3D EXPERIENCE',
+    domain: 'safa-3d-experience.vercel.app',
+    description:
+      'Luxury Haute Parfumerie website featuring real-time 3D interactive flacon bottles and olfactory note notes.',
+    tags: ['Haute Parfumerie', '3D WebGL', 'Luxury Brand'],
+    skills: ['Three.js Flacon Glass', 'Olfactory Pyramids', 'Sensory Motion', 'VIP Order Funnel'],
+    link: 'https://safa-3d-experience.vercel.app/',
+    screenshot: '/images/safa-3d-experience.webp',
+    accentGradient: 'linear-gradient(135deg, #1A140A 0%, #443216 50%, #5A2A14 100%)',
+    accentColor: '#F2B84B',
+    caseStudy: {
+      challenge:
+        'Translate the intangible luxury of niche perfumery and precious oud oils into an immersive 3D digital art piece.',
+      solution:
+        'Created a WebGL flacon showcase with interactive glass refraction, dynamic scent pyramid breakdowns, and private VIP sample order routing.',
+      highlights: [
+        'Real-time 3D glass perfume bottle with reflection & caustics',
+        'Interactive top, heart, and base olfactory note visualizer',
+        'Prestigious Middle Eastern luxury aesthetic tailored for UAE clients',
+      ],
+    },
+  },
+  {
+    number: '09',
+    name: 'VERITAS SMARTWATCH',
+    domain: 'veritas-smartwatch.vercel.app',
+    description:
+      'Next-generation wearable technology website showcasing biometric sensors and hardware engineering.',
+    tags: ['Wearable Tech', 'Hardware Showcase', 'Apple Aesthetic'],
+    skills: ['Precision Hardware UI', 'Interactive Sensor Demos', 'Titanium Casing 3D', 'Tech Specs Grid'],
+    link: 'https://veritas-smartwatch.vercel.app/',
+    screenshot: '/images/veritas-smartwatch.webp',
+    accentGradient: 'linear-gradient(135deg, #081624 0%, #163858 50%, #244670 100%)',
+    accentColor: '#2F6BFF',
+    caseStudy: {
+      challenge:
+        'Present cutting-edge smartwatch hardware and biometric health software with Apple-caliber precision and clarity.',
+      solution:
+        'Built a cinematic hardware product page with micro-interaction sensor demos, battery life comparisons, and responsive spec tables.',
+      highlights: [
+        'Apple-level precision typography and dark titanium aesthetic',
+        'Interactive health sensor metrics and display modes',
+        'Global pre-order and reservation pipeline with zero friction',
       ],
     },
   },

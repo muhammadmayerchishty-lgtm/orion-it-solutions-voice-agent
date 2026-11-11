@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SectionHeading } from '../components/SectionHeading';
 import { GlassCard } from '../components/GlassCard';
+import { SafeImage } from '../components/SafeImage';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -253,64 +254,103 @@ export function ProcessSpecialtyFaqSection() {
             />
 
             <div className="relative z-10">
-              <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#F2B84B]/12 border border-[#F2B84B]/35 mb-6">
-                <span className="w-2 h-2 rounded-full bg-[#F2B84B] shadow-[0_0_8px_#F2B84B]" />
-                <span className="font-mono-label text-[10px] sm:text-[11px] font-semibold text-[#F2B84B]">
-                  ARCHITECTURE &amp; INTERIOR SPECIALITY
-                </span>
-              </div>
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                <div className="lg:col-span-7">
+                  <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#F2B84B]/12 border border-[#F2B84B]/35 mb-6">
+                    <span className="w-2 h-2 rounded-full bg-[#F2B84B] shadow-[0_0_8px_#F2B84B]" />
+                    <span className="font-mono-label text-[10px] sm:text-[11px] font-semibold text-[#F2B84B]">
+                      ARCHITECTURE &amp; INTERIOR SPECIALITY
+                    </span>
+                  </div>
 
-              <h2
-                className="font-display font-extrabold text-[26px] sm:text-[36px] lg:text-[44px] uppercase text-[#F5F7FF] tracking-[-0.02em] leading-[1.1] max-w-4xl"
-                style={{ textWrap: 'balance' }}
-              >
-                BUILT FOR ARCHITECTS &amp;{' '}
-                <span className="italic text-signature-gradient pr-2">
-                  INTERIOR DESIGNERS.
-                </span>
-              </h2>
+                  <h2
+                    className="font-display font-extrabold text-[26px] sm:text-[36px] lg:text-[42px] uppercase text-[#F5F7FF] tracking-[-0.02em] leading-[1.1] max-w-2xl"
+                    style={{ textWrap: 'balance' }}
+                  >
+                    BUILT FOR ARCHITECTS &amp;{' '}
+                    <span className="italic text-signature-gradient pr-2">
+                      INTERIOR DESIGNERS.
+                    </span>
+                  </h2>
 
-              <p className="mt-5 font-body text-[16px] md:text-[18px] leading-[1.68] text-[#8B93B7] max-w-3xl">
-                Your projects deserve more than a gallery grid. We build cinematic project
-                showcases, interactive portfolios and AI-powered enquiry experiences that turn
-                visitors into clients.
-              </p>
+                  <p className="mt-5 font-body text-[16px] md:text-[17px] leading-[1.68] text-[#8B93B7] max-w-2xl">
+                    Your projects deserve more than a static gallery grid. We build cinematic project
+                    showcases, interactive spatial portfolios, and AI-powered enquiry experiences that turn
+                    visitors into high-value clients.
+                  </p>
 
-              {/* Three Feature Mini-Cards */}
-              <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
-                {SPECIALTY_FEATURES.map((feat) => {
-                  const Icon = feat.icon;
-                  return (
-                    <div
-                      key={feat.title}
-                      className="p-6 rounded-[24px] bg-[#050816]/75 border border-[rgba(255,255,255,0.1)] hover:border-[#F2B84B]/45 transition-colors backdrop-blur-xl"
+                  {/* Three Feature Mini-Cards */}
+                  <div className="mt-8 space-y-3.5">
+                    {SPECIALTY_FEATURES.map((feat) => {
+                      const Icon = feat.icon;
+                      return (
+                        <div
+                          key={feat.title}
+                          className="p-4 sm:p-5 rounded-[20px] bg-[#050816]/75 border border-[rgba(255,255,255,0.08)] hover:border-[#F2B84B]/40 transition-colors backdrop-blur-xl flex items-start gap-4"
+                        >
+                          <div className="w-10 h-10 rounded-xl bg-[#F2B84B]/15 border border-[#F2B84B]/35 flex items-center justify-center text-[#F2B84B] shrink-0 mt-0.5">
+                            <Icon className="w-5 h-5" />
+                          </div>
+                          <div>
+                            <h3 className="font-body font-bold text-[15px] sm:text-[16px] text-[#F5F7FF] mb-1">
+                              {feat.title}
+                            </h3>
+                            <p className="font-body text-[13px] sm:text-[13.5px] leading-[1.55] text-[#8B93B7]">
+                              {feat.description}
+                            </p>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* Action Button: SEE ARC STUDIO DEMO */}
+                  <div className="mt-8">
+                    <a
+                      href="https://arc-studio-websitem-ndkv.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-cursor-hover="true"
+                      className="group inline-flex items-center justify-center gap-2.5 rounded-full bg-[#2F6BFF] text-[#F5F7FF] border border-[#6895FF]/40 shadow-[0_0_28px_rgba(47,107,255,0.5)] hover:bg-[#3B76FF] hover:shadow-[0_0_38px_rgba(47,107,255,0.75)] px-7 py-3.5 font-mono-label text-[12px] font-medium transition-all duration-200"
                     >
-                      <div className="w-10 h-10 rounded-xl bg-[#F2B84B]/15 border border-[#F2B84B]/35 flex items-center justify-center text-[#F2B84B] mb-4">
-                        <Icon className="w-5 h-5" />
-                      </div>
-                      <h3 className="font-body font-bold text-[17px] text-[#F5F7FF] mb-2">
-                        {feat.title}
-                      </h3>
-                      <p className="font-body text-[13.5px] leading-[1.6] text-[#8B93B7]">
-                        {feat.description}
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
+                      <span>SEE ARC STUDIO DEMO</span>
+                      <ArrowUpRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                    </a>
+                  </div>
+                </div>
 
-              {/* Action Button: SEE ARC STUDIO DEMO */}
-              <div className="mt-10">
-                <a
-                  href="https://arc-studio-websitem-ndkv.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-cursor-hover="true"
-                  className="group inline-flex items-center justify-center gap-2.5 rounded-full bg-[#2F6BFF] text-[#F5F7FF] border border-[#6895FF]/40 shadow-[0_0_28px_rgba(47,107,255,0.5)] hover:bg-[#3B76FF] hover:shadow-[0_0_38px_rgba(47,107,255,0.75)] px-7 py-3.5 font-mono-label text-[12px] font-medium transition-all duration-200"
-                >
-                  <span>SEE ARC STUDIO DEMO</span>
-                  <ArrowUpRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </a>
+                {/* Right Column: 3D Spatial Architectural Showcase Image Container */}
+                <div className="lg:col-span-5 relative">
+                  <div className="group relative rounded-[28px] overflow-hidden border border-[rgba(255,255,255,0.14)] bg-[#050816] shadow-[0_24px_60px_rgba(2,4,14,0.9)]">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden">
+                      <SafeImage
+                        src="/images/architecture-spatial-showcase.webp"
+                        fallbackSrc="/images/architecture-spatial-showcase.png"
+                        alt="Spatial Architecture Luxury Pavilion 3D Showcase"
+                        width={800}
+                        height={600}
+                        placeholderGradient="linear-gradient(135deg, #09132E 0%, #1A284D 50%, #4D3412 100%)"
+                        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#050816] via-transparent to-transparent opacity-70 pointer-events-none" />
+                    </div>
+
+                    {/* Interactive Glassmorphism Overlay */}
+                    <div className="p-5 bg-[#070C21]/90 backdrop-blur-md border-t border-[rgba(255,255,255,0.08)] flex items-center justify-between gap-4">
+                      <div>
+                        <span className="font-mono-label text-[10px] text-[#F2B84B] uppercase tracking-wider block">
+                          CASE PREVIEW
+                        </span>
+                        <span className="font-display font-bold text-[14px] text-[#F5F7FF]">
+                          ARC STUDIO · SPATIAL MONOGRAPH
+                        </span>
+                      </div>
+                      <span className="font-mono-label text-[10px] px-2.5 py-1 rounded-full bg-[rgba(255,255,255,0.06)] border border-[rgba(255,255,255,0.1)] text-[#8B93B7]">
+                        3D WEBP
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
